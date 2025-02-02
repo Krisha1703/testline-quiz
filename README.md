@@ -16,10 +16,10 @@ The **Quiz App** is an engaging, interactive, and user-friendly quiz game design
   - ❌ **Wrong Answer:** -1 point.
   - 🔥 **Streak Bonus:** 4 points plus additional points equal to the current streak count.
 - **📊 Results Summary:** Displays final score percentage, mistakes made, unanswered questions, total coins earned, and points scored.
-- ⏱️ **Timer:** Each question has a timer; the quiz ends automatically when the timer runs out.
-- 🎨 **Interactive UI:** Smooth animations, vibrant design, and an intuitive layout for an immersive experience.
+- ⏱️ **Timer:** The quiz has timer of 15 minutes and ends automatically when the timer runs out.
+- 🎨 **Interactive UI:** Smooth animations, consistent design, and an intuitive layout for an immersive experience.
 - 🤝 **User-Friendly:** Simple navigation and easy-to-understand gameplay mechanics.
-- 🌟 **Engaging Game Theme:** Themed visuals and sounds to enhance the overall quiz experience.
+- 🌟 **Engaging Game Theme:** Implementation of gamification enhances overall quiz experience.
 
 ## 📚 Learning Support
 - 📝 **Explanation for Each Question:** Detailed explanations to help users learn from mistakes.

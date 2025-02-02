@@ -37,7 +37,7 @@ const MolecularQuiz = () => {
     //Quiz scoring
     const [points, setPoints] = useState(0);
     const [coins, setCoins] = useState(0);
-    const [mistakeCount, setMistakeCount] = useState(1);
+    const [mistakeCount, setMistakeCount] = useState(0);
     const [streakCount, setStreakCount] = useState(0);
     const [longestStreak, setLongestStreak] = useState(0); 
     const [streakMessage, setStreakMessage] = useState("");
