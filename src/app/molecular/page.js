@@ -1,18 +1,18 @@
 "use client";
 
 //Importing components
-import Navbar from "@/components/navbar";
-import ProgressBar from "@/components/progress-bar";
-import AnswerStreak from "@/components/answer-streak";
-import QuizContainer from "@/components/quiz-container";
-import Header from "@/components/header";
-import DisplayPowerButtons from "@/components/display-power-buttons";
+import Navbar from "@/components/homepage/navbar";
+import ProgressBar from "@/components/quiz/progress-bar";
+import AnswerStreak from "@/components/quiz/answer-streak";
+import QuizContainer from "@/components/quiz/quiz-container";
+import Header from "@/components/quiz/header";
+import DisplayPowerButtons from "@/components/powerups/display-power-buttons";
 
 //Importing functions
-import handle50_50 from "@/components/handle-50_50";
-import handleSkip from "@/components/handle-skip";
-import handleHint from "@/components/handle-hint";
-import handleFreezeTimer from "@/components/handle-freeze-time";
+import handle50_50 from "@/components/powerups/handle-50_50";
+import handleSkip from "@/components/powerups/handle-skip";
+import handleHint from "@/components/powerups/handle-hint";
+import handleFreezeTimer from "@/components/powerups/handle-freeze-time";
 
 //Importing other react libraries
 import useQuizStore from "@/app/store/useQuizStore";

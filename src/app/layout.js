@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import QuizDataProvider from "@/components/quiz-data-provider"; 
+import QuizDataProvider from "@/components/quiz/quiz-data-provider"; 
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

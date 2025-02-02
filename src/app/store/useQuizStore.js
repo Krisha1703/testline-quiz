@@ -1,4 +1,4 @@
-"use client"; // Required for Next.js app router
+"use client"; 
 
 import { create } from "zustand";
 
@@ -32,13 +32,14 @@ const useQuizStore = create((set) => ({
     }
   },
 
+  //Shuffles the questions and the options
 shuffleQuestions: () => {
   set((state) => {
     const shuffledQuestions = [...state.quizData.questions].sort(() => Math.random() - 0.5);
 
     const shuffledWithOptions = shuffledQuestions.map((question) => ({
       ...question,
-      options: [...question.options].sort(() => Math.random() - 0.5), // Shuffle options
+      options: [...question.options].sort(() => Math.random() - 0.5),
     }));
 
     return {

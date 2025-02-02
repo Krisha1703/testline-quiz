@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import formatTime from "@/components/timer"; 
-import handleOptionClick from "@/components/handle-option-click"; 
-import Hint from "@/components/hint"; 
-import NextButton from "@/components/next-button";
-import handleNextQuestion from "@/components/handle-next";
+import formatTime from "@/components/quiz/timer"; 
+import handleOptionClick from "@/components/quiz/handle-option-click"; 
+import Hint from "@/components/powerups/hint"; 
+import NextButton from "@/components/quiz/next-button";
+import handleNextQuestion from "@/components/quiz/handle-next";
 import { useState, useEffect } from "react";
 import Solution from "./solution";
 import renderExplanationContent from "./render-explanation";

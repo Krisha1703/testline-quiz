@@ -1,5 +1,5 @@
 import MainButton from "./main-button";
-import PowerUpModal from "./powerup-modal";
+import PowerUpModal from "../powerups/powerup-modal";
 
 const Header = ({toggleModal, coins, setCoins, setPowerUps, handleRestart, shuffleQuestions, points, isModalOpen}) => {
   return (
