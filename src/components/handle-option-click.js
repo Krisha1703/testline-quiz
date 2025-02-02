@@ -13,10 +13,8 @@ const handleOptionClick = (option, stateHandlers) => {
         setMistakeCount,
         setShowSummary,
         finalScorePercentage,
-        setQuizFailed,
         streakCount,
         longestStreak,
-        correctCount,
         mistakeCount,
         quizData,
         unansweredCount
@@ -46,7 +44,6 @@ const handleOptionClick = (option, stateHandlers) => {
 
         if (mistakeCount + 1 >= quizData.max_mistake_count) {
             setShowSummary(true);
-            setQuizFailed(true);
         }
         console.log("mistakeCount : ", mistakeCount);
         setStreakMessage(streakCount >= 2 ? "Oh no, your answer streak is lost!" : "");

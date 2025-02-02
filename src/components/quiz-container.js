@@ -106,6 +106,8 @@ const QuizContainer = ({
     setIsAnswerCorrect(null); 
     setCurrentQuestionIndex(0);
     setMistakeCount(0);
+    setUnansweredCount(10);
+    setFinalScorePercentage(0);
     setCoins(0);
     setPoints(0);
     setStreakCount(0);
