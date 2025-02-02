@@ -96,10 +96,10 @@ const QuizContainer = ({
 
   // Check if quiz failed
   useEffect(() => {
-    if (mistakeCount >= 9 || points < 0) {
-      setQuizFailed(true);
+    if (mistakeCount >= 9 || finalScorePercentage < 0) {
+      setShowSummary(true);
     }
-  }, [mistakeCount], [points]);
+  }, [mistakeCount], [finalScorePercentage]);
 
   const handleRestart = () => {
     setSelectedOption(null); 
@@ -111,7 +111,7 @@ const QuizContainer = ({
     setStreakCount(0);
     setStreakMessage("");
     setShowSummary(false);
-    setTimeLeft(120);
+    setTimeLeft(900);
   }
 
   

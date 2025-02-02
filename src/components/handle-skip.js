@@ -1,8 +1,8 @@
 const handleSkip = (setSelectedOption, setIsAnswerCorrect, setCurrentQuestionIndex, setPowerUps) => {
-    setSelectedOption(null); // Reset selected option
-    setIsAnswerCorrect(null); // Reset the answer correctness state
-    setCurrentQuestionIndex((prevIndex) => prevIndex + 1); // Move to the next question
-    setPowerUps((prev) => ({ ...prev, 'Skip': prev['Skip'] - 1 })); // Decrease Skip power-up count
+    setSelectedOption(null); 
+    setIsAnswerCorrect(null); 
+    setCurrentQuestionIndex((prevIndex) => prevIndex + 1); 
+    setPowerUps((prev) => ({ ...prev, 'Skip': prev['Skip'] - 1 })); 
 };
 
 export default handleSkip;

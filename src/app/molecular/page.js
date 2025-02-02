@@ -31,12 +31,12 @@ const MolecularQuiz = () => {
     const [showHint, setShowHint] = useState(false);
 
     //Timer
-    const [timeLeft, setTimeLeft] = useState(120);
+    const [timeLeft, setTimeLeft] = useState(900);
     const [isTimerFrozen, setIsTimerFrozen] = useState(false);
 
     //Quiz scoring
     const [points, setPoints] = useState(0);
-    const [coins, setCoins] = useState(10);
+    const [coins, setCoins] = useState(0);
     const [mistakeCount, setMistakeCount] = useState(1);
     const [streakCount, setStreakCount] = useState(0);
     const [longestStreak, setLongestStreak] = useState(0); 
@@ -102,7 +102,7 @@ const MolecularQuiz = () => {
       setStreakCount(0);
       setStreakMessage("");
       setShowSummary(false);
-      setTimeLeft(120);
+      setTimeLeft(900);
       setIsModalOpen(false);
       shuffleQuestions();
     }
