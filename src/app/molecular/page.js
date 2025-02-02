@@ -99,6 +99,8 @@ const MolecularQuiz = () => {
       setMistakeCount(0);
       setCoins(0);
       setPoints(0);
+      setUnansweredCount(10);
+      setFinalScorePercentage(0);
       setStreakCount(0);
       setStreakMessage("");
       setShowSummary(false);
