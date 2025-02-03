@@ -4,9 +4,9 @@ import Link from 'next/link';
 
 const TopicCard = ({title, description, href}) => {
   return (
-    <div className='w-3/10 relative p-[4px] rounded-lg bg-gradient-to-r from-primary to-secondary mx-auto'>
+    <div className='md:w-3/10 w-5/6 relative p-[4px] rounded-lg bg-gradient-to-r from-primary to-secondary mx-auto'>
         <motion.div
-            className="bg-white h-[15vw] cursor-pointer  rounded-lg shadow-md p-4 flex justify-center items-center flex-col"
+            className="bg-white md:h-[15vw] h-[30vh] cursor-pointer  rounded-lg shadow-md p-4 flex justify-center items-center flex-col"
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
